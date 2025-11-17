@@ -1,0 +1,520 @@
+<Magics><List>
+
+	<Magic Name="JieDaoHand" Type="Class">
+		<DisplayName>截道天通手</DisplayName>
+		<Desc>可以将妖兽的妖丹剥离，并且保留其灵力。此举极其邪道，会巨幅增加天谴值。</Desc>
+		<Icon>res\Sprs\ui\icon_xixing01</Icon>
+		<!--施展动画-->
+		<Ani>shentong6</Ani>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>VeryBad</Kind>
+		<!--灵气消耗-->
+		<CostLing>10000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>10</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>20</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--如果对NPC释放，NPC的反应动画-->
+		<TargetAni>dazuo</TargetAni>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Npc</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>JieDaoHand_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一个弥留的金丹期以上妖兽</TargetDesc>
+	</Magic>
+  <Magic Name="TouTianJue" Type="Class">
+		<DisplayName>偷天诀</DisplayName>
+		<Desc>可以利用妖兽的金丹，转化为自身的金丹灵气，并且提升自己的气海。过程极其凶险，需要消耗大量寿元。</Desc>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>0</CostLing>
+		<!--消耗寿命-->
+		<CostAge>20</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>50</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Item</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>TouTianJue_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一个带有灵气的玄牝珠</TargetDesc>
+	</Magic>
+  <Magic Name="JiTuGuiYuan" Type="Class">
+		<DisplayName>己土归元经</DisplayName>
+		<Desc>进入打坐状态，不断念诵无上真经，随着时间的推移，可以缓慢增加护盾的强度。但是由于真经太过深奥，因此人物的气海也会逐渐受损，灵气最大值会缓慢降低。</Desc>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>0</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+    <!--这是生效间隔-->
+		<Param1>10</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>None</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>None</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>JiTuGuiYuan_Magic</ClassName>
+	</Magic>
+  
+  <Magic Name="WanFaGuiCang" Type="Class">
+		<DisplayName>万法归藏</DisplayName>
+		<Desc>无即是有，有即是无。无者包罗万象，因此可容纳万法，亦可将万法化无形为有形，供任何人使用。</Desc>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>1000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>50</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Item</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>WanFaGuiCang_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一个空白符纸</TargetDesc>
+	</Magic>
+  
+  <Magic Name="HuaWuTongMing" Type="Class">
+		<DisplayName>化物同命大法</DisplayName>
+		<Desc>可以吸收物品的先天神蕴，被吸取的物品将会变回凡物。施术者可将灵蕴运功转化为肉身的滋养，提高自身的寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_yangshen01</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>10000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>20</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Item</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>HuaWuTongMing_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一堆品阶为圣物的物品</TargetDesc>
+	</Magic>
+  
+  <Magic Name="HanHaiLingGuang" Type="Class">
+		<DisplayName>瀚海灵光咒</DisplayName>
+		<Desc>念诵无上秘法，调动天地间的灵气，持续驱散所有的天气效果，为己方的修士提升回灵速度，并且大幅提升他们的秘术调息速度。</Desc>
+		<Icon>res\Sprs\ui\icon_ruding01</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>0</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+    <!--Param1是生效间隔-->
+		<Param1>5</Param1>
+    <!--Param2是比例回灵的基础值-->
+		<Param2>0.00001</Param2>
+    <!--Param3是自身每秒消耗的灵气-->
+		<Param3>500</Param3>
+    <!--Param4是每秒心境回复的基础值-->
+		<Param4>2</Param4>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>None</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>None</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>HanHaiLingGuang_Magic</ClassName>
+	</Magic>
+  <Magic Name="FSBatchOpen" Type="Class">
+		<DisplayName>风水天眼通</DisplayName>
+		<ItemCost>
+			<li name="Item_LingCrystal" count="1"/>
+		</ItemCost>
+		<Desc>消耗灵晶，激发全图所有风水镇物，以识别其特性。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>None</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<SelectTarget>None</SelectTarget>
+		<ClassName>FSBatchOpen_Magic</ClassName>
+		<TargetDesc></TargetDesc>
+		<CostLing>500</CostLing>
+	</Magic>
+  
+  <Magic Name="PrayForSun_2">
+		<DisplayName>驱夜诀</DisplayName>
+		<Desc>利用神通驱散永夜，但是此举有干天数，会折损寿元。</Desc>
+		<Icon>res\Sprs\ui\icon_quyun01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>UnpermanentNight</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>3000</CostLing>
+		<CostGong>0</CostGong>
+		<CostAge>5</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+  
+  <Magic Name="QianLianShenJue" Type="Class">
+		<DisplayName>千炼神诀</DisplayName>
+		<Desc>以大量的灵晶为引，用元神天火再次对成型的法宝进行锤炼，可再次强化法宝的各个属性，但是有个强化上限。</Desc>
+		<Icon>res\Sprs\ui\icon_lianqi</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>100000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>50</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Item</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>QianLianShenJue_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一个法宝</TargetDesc>
+	</Magic>
+  
+  <Magic Name="HunYuanJue" Type="Class">
+		<DisplayName>混元金斗诀</DisplayName>
+		<Desc>从太古神器混元金斗中悟得混元一炁，让修者可以化去法宝中天生自带的属性。若此过程混入天材地宝，还能将其属性变更。</Desc>
+		<Icon>res\Sprs\ui\icon_peifang</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>None</Kind>
+		<!--灵气消耗-->
+		<CostLing>100000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>50</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Item</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>HunYuanJue_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一个法宝</TargetDesc>
+	</Magic>
+  
+  <Magic Name="TaiShangBuWangQing" Type="Class">
+		<DisplayName>太上不忘情</DisplayName>
+		<Desc>太上虽忘情，却能动人间。以自身的仙法为凡人降下仙缘，能够让二人心生爱慕，喜结连理。上天也喜如此美事，因此可以提升门派誉名，降低门派恶名。</Desc>
+		<Icon>res\Sprs\ui\icon_shentong</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>10000</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>20</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>-20</ScoreBad>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>10</Param1>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--如果对NPC释放，NPC的反应动画-->
+		<TargetAni>dazuo</TargetAni>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Npc</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>TaiShangBuWangQing_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择想要配对的其中一方</TargetDesc>
+	</Magic>
+  
+  <Magic Name="LiuDingShenHuo" Type="Class">
+		<DisplayName>六丁神火诀</DisplayName>
+		<Desc>传闻是老君丹炉之火，可熔一切不可熔，合一切之不可合，成灵韵天成之物。</Desc>
+		<Icon>res\Sprs\ui\icon_liandan</Icon>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>500</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>
+		<!--消耗修为-->
+		<CostGong>0</CostGong>
+		<!--天谴-->
+		<Penalty>0</Penalty>
+		<!--门派基础声望-->
+		<ScoreBase>0</ScoreBase>
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--门派恶名-->
+		<ScoreBad>0</ScoreBad>
+		<!--自定义字符串参数 支持1到3-->
+		<sParam1></sParam1>
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--目标筛选 可以用|组合-->
+		<!-- None  无
+			Point 点
+			NoBuilding  无建筑
+			InLight 已点亮
+			PlayerThing  玩家单位
+			Item 物品
+			Npc 角色
+			Building  建筑
+			Plant 植物
+			Walkable 无障碍
+			PathFind 可达
+			NoItem  无物品
+			NoPlant 无植物-->
+		<SelectTarget>Building</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>LiuDingShenHuo_Magic</ClassName>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择风水镇物阵法的中心物品。选择装备或法宝可以进行附魔，选择材料则可以进行特殊合成。</TargetDesc>
+	</Magic>
+  
+  <Magic Name="PrayForJiTianJieJie">
+		<DisplayName>极天化神界</DisplayName>
+		<Desc>以大法力在此方区域布下极天结界，使所有我方角色获得大量有益状态。同一时间只能存在一个结界。</Desc>
+		<Icon>res\Sprs\ui\icon_fengyue01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>5.334</Param1><!--施法时间-->
+		<sParam1>Weather_Magic_JiTianJieJie</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>640000</CostLing>
+		<CostAge>64</CostAge>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+
+</List></Magics>

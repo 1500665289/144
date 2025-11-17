@@ -1,0 +1,40 @@
+--背水一战·狂暴
+local tbTable = GameMain:GetMod("_ModifierScript")
+local tbModifier = tbTable:GetModifier("modifier_beishui_kuangbao")
+
+
+
+--注意：自定义modidifer要注意离开的时候将自定义效果移除
+--进入modifier
+function tbModifier:Enter(modifier, npc)
+  if not npc:HasSpecialFlag(g_emNpcSpecailFlag.FLAG_GODMODE) then
+    npc:SetSpecialFlag(g_emNpcSpecailFlag.FLAG_GODMODE)
+  end
+end
+
+--modifier step
+function tbModifier:Step(modifier, npc, dt)
+
+end
+
+--层数更新
+function tbModifier:UpdateStack(modifier, npc, add)
+	
+end
+
+--离开modifier
+function tbModifier:Leave(modifier, npc)
+  if npc:HasSpecialFlag(g_emNpcSpecailFlag.FLAG_GODMODE) then
+    npc:RemoveSpecialFlag(g_emNpcSpecailFlag.FLAG_GODMODE)
+  end
+end
+
+--获取存档数据
+function tbModifier:OnGetSaveData()
+	return nil
+end
+
+--载入存档数据
+function tbModifier:OnLoadData(modifier, npc, tbData)
+
+end

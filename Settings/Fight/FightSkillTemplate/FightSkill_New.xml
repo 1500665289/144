@@ -1,0 +1,203 @@
+<FightSkills><List>
+
+	<Skill Name="PoZhenJue">
+		<DisplayName>破阵诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>1800</CD>
+		<LingCost>5000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>PoZhenJue_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>64</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+  <Skill Name="ZhenYaoJue">
+		<DisplayName>镇妖诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>180</CD>
+		<LingCost>500</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>ZhenYaoJue_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>64</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	<Skill Name="LiHuoPoMo">
+		<DisplayName>离火破魔诀</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Huo</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>60</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>LiHuoPoMo_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>7</MissileEffect>
+		<HitEffect>71</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+  
+  <Skill Name="ZhangXinTianXuanLei">
+		<DisplayName>掌心天玄雷</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Jin</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>180</CD>
+		<LingCost>40000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>50</Value>
+		<ClassName>ZhangXinTianXuanLei_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+    <TargetCamp>Enemy</TargetCamp>
+		<MissileEffect>20</MissileEffect>
+		<HitEffect>75</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+  
+  <Skill Name="BulletTime">
+		<DisplayName>止水</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Fabao</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0.1</SingTime>
+		<CD>90</CD>
+		<LingCost>1000</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng8</CastAni>
+		<Value>0</Value>
+		<Value2>0</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		<ClassName>BulletTime_Skill</ClassName>
+		<Shape>Single</Shape>
+		<SelectType>Self</SelectType>
+		<HitEffect>54</HitEffect>
+	</Skill>
+  
+  <Skill Name="YuShiJuFen">
+		<DisplayName>玉石俱焚</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>0</CD>
+		<LingCost>0</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<ClassName>YuShiJuFen_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+    <TargetCamp>Enemy</TargetCamp>
+		<MissileEffect>23</MissileEffect>
+		<HitEffect>60</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+  
+  <Skill Name="HuaMingTongGui">
+		<DisplayName>化命同归大法</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Mu</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>1</SingTime>
+		<CD>120</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HuaMingTongGui_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>AllNpc</SelectType>
+		<MissileEffect>2</MissileEffect>
+		<HitEffect>33</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+  
+  <Skill Name="HuanGuMiXin">
+		<DisplayName>幻蛊迷心</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>Huo</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>120</CD>
+		<LingCost>400</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>0</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		<ClassName>HuanGuMiXin_Skill</ClassName>
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>2</MissileEffect>
+		<HitEffect>33</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>1</p1>
+			<p2>0</p2>
+			<p3>1</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+</List></FightSkills>

@@ -1,0 +1,312 @@
+<Esotericas><List>
+
+  <Esoterica Name="Magic_TouTianJue">
+		<DisplayName>偷天诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：偷天诀\n可以利用妖兽的金丹，转化为自身的金丹灵气，并且提升自己的气海。过程极其凶险，需要消耗大量寿元[/color][/size]</EffectDesc>
+		<Magics>
+			<li>TouTianJue</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Magic_JiTuGuiYuan_1">
+		<DisplayName>己土归元经·归尘</DisplayName>
+    <Hide>2</Hide>
+    <Icon>res/Sprs/ui/icon_ruding01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc></Desc>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]增强己土归元经，使得念诵时可以增强水属性抗性\n[/color][/size]</EffectDesc>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_PoZhenJue">
+		<DisplayName>破阵诀</DisplayName>
+    <Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+    <Desc>施法召唤天尊的法相，唤千朵金花，璎珞垂珠，络绎不绝，阻隔敌人阵法的部分运转，可以直接破除敌方阵法的一个阵眼。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：破阵诀\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>PoZhenJue</li>
+		</Skills>
+	</Esoterica>
+  <Esoterica Name="Magic_WanFaGuiCang">
+		<DisplayName>真·万法归藏</DisplayName>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+    <Hide>2</Hide>
+    <Desc>无即是有，有即是无。无者包罗万象，因此可容纳万法，亦可将万法化无形为有形，供任何人使用。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：万法归藏\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>WanFaGuiCang</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Gong4_LvUpEsoterica_XinJin">
+		<DisplayName>辛金元神</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_yujian</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>凝练辛金元神，突破御器等级。如果同时有凝练丙火元神，则丙辛合水，根据御器等级和术法等级增加回灵速度。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Jin</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]突破御器等级五级，与丙火元神相合则增加回灵速度。[/color][/size]</EffectDesc>
+		<Modifier>Gong4_LvUpEsoterica_XinJin</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong4_LvUpEsoterica_YiMu">
+		<DisplayName>乙木元神</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>凝练乙木元神，小幅提高寿命。如果同时有凝练庚金元神，则庚乙合金，根据寿命增加御器等级。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高寿命，与庚金元神相合则增加御器等级。[/color][/size]</EffectDesc>
+		<Modifier>Gong4_LvUpEsoterica_YiMu</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong4_LvUpEsoterica_GuiShui">
+		<DisplayName>癸水元神</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_jichu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>凝练癸水元神，提高灵气最大值。如果同时有凝练戊土元神，则戊癸合火，根据护盾等级和灵气最大值增加术法等级。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]小幅提高灵气最大值，与戊土元神相合则增加术法等级。[/color][/size]</EffectDesc>
+		<Modifier>Gong4_LvUpEsoterica_GuiShui</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong4_LvUpEsoterica_DingHuo">
+		<DisplayName>丁火元神</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_zhandoufashu</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>凝练丁火元神，突破术法等级。如果同时有凝练壬水元神，则壬丁合木，根据灵气最大值和御器等级增加阵法等级。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]突破术法等级五级，与壬水元神相合则增加阵法等级。[/color][/size]</EffectDesc>
+		<Modifier>Gong4_LvUpEsoterica_DingHuo</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="Gong4_LvUpEsoterica_JiTu">
+		<DisplayName>己土元神</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_huti</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<Desc>凝练己土元神，突破护盾等级。如果同时有凝练甲木元神，则甲己合土，根据寿命增加护盾等级。</Desc>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]突破护盾等级五级，与甲木元神相合则增加护盾等级。[/color][/size]</EffectDesc>
+		<Modifier>Gong4_LvUpEsoterica_JiTu</Modifier>	
+	</Esoterica>
+
+  <Esoterica Name="God_AddFabaoNum1_1">
+		<DisplayName>真武洞神</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>大彻大悟玄武大帝的玄密，可根据自身心境大幅提升回灵速度。</Desc>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]自身心境越高，灵气回复能力越高\n[/color][/size]</EffectDesc>
+		<Modifier>Modifier_ZhenWuDongShen</Modifier>
+	</Esoterica>
+  <Esoterica Name="God_AddFabaoNum1_2">
+		<DisplayName>紫微洞玄</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>大彻大悟紫微帝星的玄密，可在战斗中破敌斩将，勇猛无比。</Desc>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]每次击中敌人都有几率削减敌人的灵气最大值\n[/color][/size]</EffectDesc>
+    <Modifier>Modifier_ZiWeiDongXuan</Modifier>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_PrayForSun_2">
+		<DisplayName>驱夜诀</DisplayName>
+    <Hide>2</Hide>
+    <Icon>res/Sprs/ui/icon_quyun01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<GLevel>Qi</GLevel>
+		<Desc>可以驱散永夜。</Desc>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：驱夜诀\n利用神通驱散永夜，但是此举有干天数，会折损寿元。[/color][/size]</EffectDesc>
+    <Magics>
+			<li>PrayForSun_2</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Skill_LiHuoPoMo_1">
+		<DisplayName>离火破魔诀·燃魂</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc></Desc>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]使得被离火破魔诀击中的敌人都会更加害怕此秘术，每多一层燃魂不利状态，伤害都会多一倍。\n[/color][/size]</EffectDesc>
+	</Esoterica>
+  <Esoterica Name="Skill_LiHuoPoMo_2">
+		<DisplayName>离火破魔诀·焚心</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc></Desc>
+		<Element>Huo</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]再次增强离火破魔诀，使得被击中的敌人的护盾效果完全消失\n[/color][/size]</EffectDesc>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_FSBatchOpen">
+		<DisplayName>风水天眼通</DisplayName>
+    <Hide>2</Hide>
+    <Icon>res/Sprs/ui/icon_tianyan01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>9</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc></Desc>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：风水天眼\n  消耗灵晶，激发全图所有风水镇物，以识别其特性。[/color][/size]</EffectDesc>
+    <Magics>
+			<li>FSBatchOpen</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Magic_HanHaiLingGuang_1">
+		<DisplayName>瀚海灵光咒·宁心</DisplayName>
+    <Hide>2</Hide>
+    <Icon>res/Sprs/ui/icon_ruding01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc></Desc>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]增强瀚海灵光咒，使得受影响的友方内门弟子同时可以恢复心境值\n[/color][/size]</EffectDesc>
+	</Esoterica>
+  <Esoterica Name="Magic_HanHaiLingGuang_2">
+		<DisplayName>瀚海灵光咒·辉耀</DisplayName>
+    <Hide>2</Hide>
+    <Icon>res/Sprs/ui/icon_ruding01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God2</GLevel>
+		<Desc></Desc>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]增强瀚海灵光咒，使得受影响的友方内门弟子受到攻击时可以反射部分伤害回攻击者\n[/color][/size]</EffectDesc>
+	</Esoterica>
+  
+  <Esoterica Name="God_AddFabaoNum2_1">
+		<DisplayName>七杀克身诀·背水一战</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>12</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>牺牲神识，化身七杀星煞，背水一战，勇不可当。随着自身灵气值的降低，法宝的威力会越来越强。</Desc>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]降低5点神识\n自身当前灵气越低，法宝的根本威力越强\n[/color][/size]</EffectDesc>
+		<Modifier>Modifier_QiShaKeShen_BeiShui</Modifier>	
+	</Esoterica> 
+  <Esoterica Name="God_AddFabaoNum2_2">
+		<DisplayName>七杀克身诀·玉石俱焚</DisplayName>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>12</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>七杀神勇，宁死不屈，敌若犯我，玉石俱焚。绝境下可自毁法宝一件（由前向后），对目标造成超巨幅伤害。</Desc>
+		<Element>Jin</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：玉石俱焚\n[/color][/size]</EffectDesc>
+    <Skills>
+			<li>YuShiJuFen</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_HuaMingTongGui">
+		<DisplayName>化命同归大法</DisplayName>
+    <Desc>牺牲自己的寿命，祈祷上天对敌人降下劫数，削减他们等值的阳寿，以做陪葬。</Desc>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>12</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+    <Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：化命同归大法\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>HuaMingTongGui</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_BulletTime">
+		<DisplayName>剑破虚空·止水</DisplayName>
+    <Desc>葵花出剑之快，世上其余的存在对于葵花来说都如同静止一般。</Desc>
+    <Hide>2</Hide>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God2</GLevel>
+		<Element>Tu</Element>
+    <Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：止水\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>BulletTime</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_TaiShangBuWangQing">
+		<DisplayName>太上不忘情</DisplayName>
+		<Icon>res/Sprs/ui/icon_shentong</Icon>
+    <Desc>太上虽忘情，却能动人间。以自身的仙法为人间降下仙缘，能够让二人互为钦慕，喜结连理。上天也喜如此美事，因此可以提升门派誉名，降低门派恶名。</Desc>
+		<Hide>2</Hide>
+    <StarLevel>1</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：太上不忘情\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>TaiShangBuWangQing</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Magic_JiTianJieJie">
+		<DisplayName>极天化神界</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res/Sprs/ui/icon_fengyue01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		
+		<EffectDesc>[size=10][color=#D06508]习得神通：极天化神界\n以大法力在此方区域布下极天结界，使所有我方角色获得大量有益状态。同一时间只能存在一个结界。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PrayForJiTianJieJie</li>
+		</Magics>
+	</Esoterica>
+  
+
+</List></Esotericas>

@@ -1,0 +1,49 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_MagicSpell">
+	<ThingName>符箓</ThingName>
+		
+	<MaxStack>1</MaxStack>
+	<TexPath>res\Sprs\object\object_fuzhou01b</TexPath>	
+	<Desc>封印着某种神通的符箓，修真者使用可以释放封印的神通。</Desc>
+	<MaxHitPoints>100</MaxHitPoints>
+	<Rate>2</Rate>
+	
+	<Beauty>2</Beauty>
+	<ElementKind>Mu</ElementKind>
+	
+	<Flammability>
+		<Flammability>0.8</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<Item Lable="Tool" Kind="Equipment">
+		<NotFengshuiItem>0</NotFengshuiItem>
+		<FabaoSuffix>符,咒,禁</FabaoSuffix>
+		<PhysicalLables>
+			<li>Light2</li>
+			<li>Soft1</li>
+		</PhysicalLables>
+    <UseLua>GameMain:GetMod('MoreMagic').Utils.UseFulu()</UseLua>
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0</AddionFailing>
+		<AddionFailRadius>0</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.4</Absorption>
+		<Accommodate>5</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Mu</Kind>
+		<Value>4</Value>         
+		<Radius>2</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

@@ -1,0 +1,191 @@
+﻿<Esotericas><List>
+
+	<Esoterica Name="Magic_JieDaoHand">
+		<DisplayName>截道天通手</DisplayName>
+		<Icon>res/Sprs/ui/icon_xixing01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：截道天通手\n可以将妖兽的妖丹剥离，并且保留其灵力。此举极其邪道，会巨幅增加天谴值[/color][/size]</EffectDesc>
+		<Magics>
+			<li>JieDaoHand</li>
+		</Magics>
+	</Esoterica>
+  <Esoterica Name="Magic_JiTuGuiYuan">
+		<DisplayName>己土归元经</DisplayName>
+		<Icon>res/Sprs/ui/icon_ruding01</Icon>
+    <Desc>进入打坐状态，不断念诵无上真经，随着时间的推移，可以缓慢增加护盾的强度。但是由于真经太过深奥，因此人物的气海也会逐渐受损，灵气最大值会缓慢降低。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God2</GLevel>
+		<Element>Tu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：己土归元经\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>JiTuGuiYuan</li>
+		</Magics>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_ZhenYaoJue">
+		<DisplayName>镇妖诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+    <Desc>施法引天尊的分神下界斩妖，瞬间摧毁所有妖兽的法宝，大幅削弱他们的战斗力。由于此法过于强硬，会对施术者造成巨大的损伤。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：镇妖诀\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>ZhenYaoJue</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_QianLianShenJue">
+		<DisplayName>千炼神诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_lianqi</Icon>
+    <Desc>以大量的灵晶为引，用元神天火再次对成型的法宝进行锤炼，可再次强化法宝的各个属性，但是有个强化上限。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>18</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：千炼神诀\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>QianLianShenJue</li>
+		</Magics>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_HunYuanJue">
+		<DisplayName>混元金斗诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_peifang</Icon>
+    <Desc>从太古神器混元金斗中悟得混元一炁，让修者可以化去法宝中天生自带的属性。若此过程混入天材地宝，还能将其属性变更。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：混元金斗诀\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>HunYuanJue</li>
+		</Magics>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_HuanGuMiXin">
+		<DisplayName>幻蛊迷心</DisplayName>
+    <Desc>为目标种下迷心蛊，让其心智狂乱，分不清敌我，从而在持续时间内会随意攻击周围的目标，如果周边没有目标，则保持脱战状态直到持续时间结束。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>15</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+    <Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：幻蛊迷心\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>HuanGuMiXin</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_LiHuoPoMo">
+		<DisplayName>离火破魔诀·破魔</DisplayName>
+    <Desc>以身为炉，以丹为引，引太清真火惩处敌人。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>12</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：离火破魔诀\n[/color][/size]</EffectDesc>
+    <Type>Skill</Type>
+		<Skills>
+			<li>LiHuoPoMo</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Skill_ZhangXinTianXuanLei">
+		<DisplayName>掌心天玄雷</DisplayName>
+		<Icon>res/Sprs/ui/icon_huashang01</Icon>
+    <Desc>凝结真仙的磅礴灵气，化为天玄神雷聚于掌心，对敌人的气海造成的伤害，受影响的敌人会被打断所有动作并且闭锁秘术。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God2</GLevel>
+		<Element>Jin</Element>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：掌心天玄雷\n[/color][/size]</EffectDesc>
+		<Skills>
+			<li>ZhangXinTianXuanLei</li>
+		</Skills>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_HuaWuTongMing">
+		<DisplayName>化物同命大法</DisplayName>
+		<Icon>res/Sprs/ui/icon_yangshen01</Icon>
+    <Desc>可以吸收物品的先天神蕴，被吸取的物品将会变回凡物。施术者可将灵蕴运功转化为肉身的滋养，提高自身的寿元。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Mu</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：化物同命大法\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>HuaWuTongMing</li>
+		</Magics>
+	</Esoterica>
+  
+  <Esoterica Name="Magic_HanHaiLingGuang">
+		<DisplayName>瀚海灵光咒</DisplayName>
+		<Icon>res/Sprs/ui/icon_ruding01</Icon>
+    <Desc>念诵无上秘法，调动天地间的灵气，持续驱散所有的天气效果，为己方的修士提升回灵速度，并且大幅提升他们的秘术调息速度。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>20</Difficulty>
+		<GLevel>God2</GLevel>
+		<Element>Shui</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：瀚海灵光咒\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>HanHaiLingGuang</li>
+		</Magics>
+	</Esoterica>
+  
+  <Esoterica Name="God_AddFabaoNum1">
+		<DisplayName>北斗洞心</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>大彻大悟北斗七星的玄密，大幅提高基础心境。</Desc>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高基础心境\n[/color][/size]</EffectDesc>
+		<Modifier>Modifier_BeiDouDongXing</Modifier>	
+	</Esoterica>
+  
+  <Esoterica Name="God_JianPoXuKong">
+		<DisplayName>剑破虚空</DisplayName>
+    <Desc>天下武功，唯快不破，葵花御剑之法讲究快准狠，因此出剑极快可划破虚空。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Tu</Element>
+    <Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]巨幅提升法宝的飞行速度和转向速度\n[/color][/size]</EffectDesc>
+		<Modifier>Modifier_JianPoXuKong</Modifier>	
+	</Esoterica>
+  
+  <Esoterica Name="God_AddFabaoNum2">
+		<DisplayName>七杀克身诀</DisplayName>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<GLevel>God</GLevel>
+		<Desc>援引七杀星的杀性为自身法宝开光，可以小幅提升法宝的根本威力。</Desc>
+		<Element>Jin</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]小幅提升法宝的根本威力\n[/color][/size]</EffectDesc>
+		<Modifier>Modifier_QiShaKeShen</Modifier>	
+	</Esoterica> 
+  
+  <Esoterica Name="Magic_LiuDingShenHuo">
+		<DisplayName>六丁神火诀</DisplayName>
+		<Icon>res/Sprs/ui/icon_liandan</Icon>
+    <Desc>传闻是老君丹炉之火，可熔一切不可熔，合一切之不可合，成灵韵天成之物。</Desc>
+		<StarLevel>2</StarLevel>
+		<Difficulty>0</Difficulty>
+		<GLevel>God</GLevel>
+		<Element>Huo</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：六丁神火诀\n[/color][/size]</EffectDesc>
+		<Magics>
+			<li>LiuDingShenHuo</li>
+		</Magics>
+	</Esoterica>
+  
+</List></Esotericas>

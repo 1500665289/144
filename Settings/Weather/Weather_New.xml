@@ -1,0 +1,57 @@
+<Weathers><List>
+
+	<Weather Name="UnpermanentNight">
+		<DisplayName>祛除永夜</DisplayName>
+		<StoryDesc>永夜结束</StoryDesc>
+		<Icon>res/Sprs/ui/w9</Icon>
+		<Kind>Type3</Kind>
+		<ClassName></ClassName>
+		<Modifier>Weather_SunnyDay</Modifier>
+		<DurationMin>0.01</DurationMin>
+		<DurationMax>0.01</DurationMax>
+	
+		<Thunder>0</Thunder>
+		<ShowKind>None</ShowKind>
+		<ShowWeight>0</ShowWeight>
+		<Season>
+			<li>Spring</li>
+			<li>Summer</li>
+			<li>Autumn</li>
+			<li>Winter</li>
+		</Season>	
+		
+		<MapEffect>
+			<li Name="IntensityOfFire" Value="1"/>
+			<li Name="LightAddP" Value="0.2"/>
+			<li Name="TempAddV" Value="3"/>
+			
+			<li Name="NoneBroken" Value="0.02"/>
+			<li Name="JinBroken" Value="0.02"/>
+			<li Name="HuoBroken" Value="0.02"/>
+			<li Name="TuBroken" Value="0.02"/>
+		</MapEffect>
+	</Weather>
+  
+  <Weather Name="Weather_Magic_JiTianJieJie">
+		<DisplayName>极天化神界</DisplayName>
+		<StoryDesc>整个地图以及小人都处在大量的有益状态中。</StoryDesc>
+		<Icon>res/Sprs/ui/icon_baoyu01</Icon>
+		<Kind>Type99</Kind>
+		<ClassName></ClassName>
+		<Modifier>Modifier_Weather_Magic_JiTianJieJie</Modifier>
+		<DurationMin>10</DurationMin>
+		<DurationMax>10</DurationMax>
+		<SunColor>26589EFF</SunColor>	
+		<Season>
+			<li>Spring</li>
+			<li>Summer</li>
+			<li>Autumn</li>
+			<li>Winter</li>
+		</Season>
+    <MapEffect>
+			<li Name="FertilityAddP" Value="2"/>
+      <li Name="LingAddtionAddV" Value="300"/>
+		</MapEffect>
+	</Weather>
+
+</List></Weathers>

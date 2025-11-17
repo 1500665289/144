@@ -1,0 +1,252 @@
+<ModifierDefs><List>  
+
+  <Modifier Name="Modifier_Target_HanHaiLingGuang" Type="Normal">
+		<DisplayName>瀚海灵光</DisplayName>
+		<Desc>接受瀚海灵光咒的效果，大幅提升回灵速度和降低术法调息时间。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="2"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="0.3"/>
+		</Properties>
+	</Modifier>
+  <Modifier Name="Modifier_Target_HanHaiLingGuang_HuiYao" Type="Normal">
+		<DisplayName>瀚海灵光·辉耀</DisplayName>
+		<Desc>接受瀚海灵光·辉耀的效果，可以反弹部分伤害给敌人。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_hanhailingguang_huiyao</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="Gong4_LvUpEsoterica_XinJin" Type="Normal">
+		<DisplayName>辛金元神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Fabao" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong4_LvUpEsoterica_YiMu" Type="Normal">
+		<DisplayName>乙木元神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="160"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong4_LvUpEsoterica_GuiShui" Type="Normal">
+		<DisplayName>癸水元神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddP="15"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Gong4_LvUpEsoterica_DingHuo" Type="Normal">
+		<DisplayName>丁火元神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="FightSkill" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+	<Modifier Name="Gong4_LvUpEsoterica_JiTu" Type="Normal">
+		<DisplayName>己土元神</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Barrier" LevelOver="5"/>
+		</Skills>
+	</Modifier>
+   <Modifier Name="Modifier_BingXin" Type="Normal">
+		<DisplayName>丙辛合水</DisplayName>
+    <Desc>根据御器等级和术法等级增加回灵速度。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <LuaClassName>modifier_bingxin</LuaClassName>
+	</Modifier>
+	<Modifier Name="Modifier_GengYi" Type="Normal">
+		<DisplayName>庚乙合金</DisplayName>
+		<Desc>根据寿命增加御器等级。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <LuaClassName>modifier_gengyi</LuaClassName>
+	</Modifier>
+	<Modifier Name="Modifier_WuGui" Type="Normal">
+		<DisplayName>戊癸合火</DisplayName>
+		<Desc>根据护盾等级和灵气最大值增加术法等级。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <LuaClassName>modifier_wugui</LuaClassName>
+	</Modifier>
+	<Modifier Name="Modifier_RenDing" Type="Normal">
+		<DisplayName>壬丁合木</DisplayName>
+		<Desc>根据灵气最大值和御器等级增加阵法等级。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <LuaClassName>modifier_rending</LuaClassName>
+	</Modifier>
+	<Modifier Name="Modifier_JiaJi" Type="Normal">
+		<DisplayName>甲己合土</DisplayName>
+		<Desc>根据寿命增加护盾等级。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <LuaClassName>modifier_jiaji</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="Modifier_Target_ZhangXinTianXuanLei" Type="Normal">
+		<DisplayName>玄雷破体</DisplayName>
+		<Desc>受到天玄雷的伤害，使得角色无法使用任何秘术。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>360</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="999"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddV="999"/>
+		</Properties>
+	</Modifier>
+  <Modifier Name="Modifier_BeiDouDongXing" Type="Normal">
+		<DisplayName>北斗洞心</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="40"/>
+		</Properties>
+	</Modifier>
+  <Modifier Name="Modifier_ZhenWuDongShen" Type="Normal">
+		<DisplayName>真武洞神</DisplayName>
+		<Desc>大彻大悟玄武大帝的玄密，可根据自身心境大幅提升回灵速度。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_zhenwudongshen</LuaClassName>
+  </Modifier>
+  <Modifier Name="Modifier_ZiWeiDongXuan" Type="Normal">
+		<DisplayName>紫微洞玄</DisplayName>
+		<Desc>大彻大悟紫微帝星的玄密，可在战斗中破敌斩将，勇猛无比。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_ziweidongxuan</LuaClassName>
+	</Modifier>
+  <Modifier Name="Modifier_Target_ZiWeiDongXuan" Type="Normal">
+		<DisplayName>紫微洞玄·敌</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>0.1</Duration>
+		<Display>0</Display>
+		<LuaClassName>modifier_target_ziweidongxuan</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="Modifier_Target_LiHuoPoMo_RanHun" Type="Normal">
+		<DisplayName>离火破魔诀·燃魂</DisplayName>
+		<Desc></Desc>
+		<MaxStack>9999</MaxStack>
+		<Duration>120</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_ranhun</LuaClassName>
+	</Modifier>
+  <Modifier Name="Modifier_Target_LiHuoPoMo_FenXin" Type="Normal">
+		<DisplayName>离火破魔诀·焚心</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>30</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_fenxin</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="Modifier_JianPoXuKong" Type="Normal">
+		<DisplayName>剑破虚空</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoFlySpeedAddP" BAddP="5"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" BAddP="5"/>
+		</Properties>
+	</Modifier>
+  
+	<Modifier Name="Modifier_QiShaKeShen" Type="Normal">
+		<DisplayName>七杀克身诀</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.2"/>
+		</Properties>
+	</Modifier> 
+  <Modifier Name="Modifier_QiShaKeShen_BeiShui" Type="Normal">
+		<DisplayName>七杀克身诀·背水</DisplayName>
+		<Desc>背水一战，勇不可当。</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+    <BaseFive>-5,0,0,0,0</BaseFive>
+    <LuaClassName>modifier_beishui</LuaClassName>
+	</Modifier> 
+  <Modifier Name="Modifier_BeiShui_KuangBao" Type="Normal">
+		<DisplayName>背水一战·狂暴</DisplayName>
+		<Desc></Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>30</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_beishui_kuangbao</LuaClassName>
+	</Modifier> 
+  
+  <Modifier Name="Modifier_Target_HuanGuMiXin" Type="Normal">
+		<DisplayName>迷心蛊</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>60</Duration>
+		<Display>1</Display>
+		<LuaClassName>modifier_huangumixin</LuaClassName>
+	</Modifier>
+  <Modifier Name="Modifier_Weather_Magic_JiTianJieJie" Type="Normal">
+		<DisplayName>极天化神界</DisplayName>
+		<Desc>在极天化神界中，修炼速度和学习速度大幅提升，并且增加对冷热的耐性，降低精力、娱乐、食物和饮水的消耗速度，增加心情和心境。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="5"/>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="5"/>
+      <li Name="FatigueConsumeConstant" AddP="-0.8"/>
+      <li Name="NutritionConsumeConstant" AddP="-0.8"/>
+			<li Name="WaterConsumeConstant" AddP="-0.8"/>
+      <li Name="HappyConsumeConstant" AddP="-0.8"/>
+			<li Name="BaseEmotionAddV" AddV="100"/>
+      <li Name="MindStateBaseValue" AddV="100"/>
+      <li Name="ComfyTMin" AddV="-40"/>
+			<li Name="ToleranceTMin" AddV="-40"/>
+      <li Name="ComfyTMax" AddV="60"/>
+			<li Name="ToleranceTMax" AddV="60"/>
+		</Properties>
+	</Modifier>
+  
+
+</List></ModifierDefs>

@@ -1,0 +1,127 @@
+<SkillTree><List>
+
+  <Node Name="Gong5_c4_1" Gong="Gong_5_Tu">
+		<Esoterica>Magic_TouTianJue</Esoterica>
+		<DisplayName>偷天诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong5_e1_1" Gong="Gong_5_Tu">
+		<Esoterica>Magic_JiTuGuiYuan_1</Esoterica>
+		<DisplayName>己土归元经·归尘</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong4_d5_1" Gong="Gong_4_None">
+		<Esoterica>Skill_PoZhenJue</Esoterica>
+		<DisplayName>破阵诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_c3_N" Gong="Gong_4_None">
+		<Esoterica>Magic_WanFaGuiCang</Esoterica>
+		<DisplayName>真·万法归藏</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_d7_N" Gong="Gong_4_None">
+		<Esoterica>Gong4_LvUpEsoterica_XinJin</Esoterica>
+		<DisplayName>辛金元神</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_d8_N" Gong="Gong_4_None">
+		<Esoterica>Gong4_LvUpEsoterica_YiMu</Esoterica>
+		<DisplayName>乙木元神</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_d9_N" Gong="Gong_4_None">
+		<Esoterica>Gong4_LvUpEsoterica_GuiShui</Esoterica>
+		<DisplayName>癸水元神</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_d10_N" Gong="Gong_4_None">
+		<Esoterica>Gong4_LvUpEsoterica_DingHuo</Esoterica>
+		<DisplayName>丁火元神</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong4_d11_N" Gong="Gong_4_None">
+		<Esoterica>Gong4_LvUpEsoterica_JiTu</Esoterica>
+		<DisplayName>己土元神</DisplayName>
+		<Level>None</Level>
+	</Node>
+
+  <Node Name="Gong8_d2_1" Gong="Gong_8_Jin">
+		<Esoterica>God_AddFabaoNum1_1</Esoterica>
+		<DisplayName>真武洞神</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong8_d2_2" Gong="Gong_8_Jin">
+		<Esoterica>God_AddFabaoNum1_2</Esoterica>
+		<DisplayName>紫微洞玄</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong10_a1_1" Gong="Gong_10_Huo">
+		<Esoterica>Magic_PrayForSun_2</Esoterica>
+		<DisplayName>驱夜诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong10_d11_1" Gong="Gong_10_Huo">
+		<Esoterica>Skill_LiHuoPoMo_1</Esoterica>
+		<DisplayName>离火破魔诀·燃魂</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong10_d11_2" Gong="Gong_10_Huo">
+		<Esoterica>Skill_LiHuoPoMo_2</Esoterica>
+		<DisplayName>离火破魔诀·焚心</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong1_b2_0" Gong="Gong_1_Shui">
+		<Esoterica>Magic_FSBatchOpen</Esoterica>
+		<DisplayName>风水天眼通</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong1_e0_1" Gong="Gong_1_Shui">
+		<Esoterica>Magic_HanHaiLingGuang_1</Esoterica>
+		<DisplayName>瀚海灵光咒·宁心</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong1_e0_2" Gong="Gong_1_Shui">
+		<Esoterica>Magic_HanHaiLingGuang_2</Esoterica>
+		<DisplayName>瀚海灵光咒·辉耀</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong3_d0_1" Gong="Gong_3_Jin">
+		<Esoterica>God_AddFabaoNum2_1</Esoterica>
+		<DisplayName>七杀克身诀·背水一战</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong3_d0_2" Gong="Gong_3_Jin">
+		<Esoterica>God_AddFabaoNum2_2</Esoterica>
+		<DisplayName>七杀克身诀·玉石俱焚</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong9_d3_1" Gong="Gong_9_Mu">
+		<Esoterica>Skill_HuaMingTongGui</Esoterica>
+		<DisplayName>化命同归大法</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong11_d0_1" Gong="Gong_11_Tu">
+		<Esoterica>Skill_BulletTime</Esoterica>
+		<DisplayName>剑破虚空·止水</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+  <Node Name="Gong7_b2_N" Gong="Gong_7_Huo">
+		<Esoterica>Magic_TaiShangBuWangQing</Esoterica>
+		<DisplayName>太上不忘情</DisplayName>
+		<Level>None</Level>
+	</Node>
+  <Node Name="Gong7_c1_N" Gong="Gong_7_Huo">
+		<Esoterica>Magic_JiTianJieJie</Esoterica>
+		<DisplayName>极天化神界</DisplayName>
+		<Level>None</Level>
+	</Node>
+  
+</List></SkillTree> 

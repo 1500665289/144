@@ -1,0 +1,53 @@
+<ModifierDefs><List>  
+
+  <Modifier Name="LDModifier_Test" Type="Normal">
+		<DisplayName>六丁神火附魔测试</DisplayName>
+		<Desc></Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>LDModifier_Test</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="LDModifier_BloodLust" Type="Normal">
+		<DisplayName>灵气渴望</DisplayName>
+		<Desc>每次攻击都能够吸取敌方一定比例的当前灵气用于回复自身</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>LDModifier_BloodLust</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="LDModifier_FBBloodLust" Type="Normal">
+		<DisplayName>灵气窃取</DisplayName>
+		<Desc></Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<LuaClassName>LDModifier_FBBloodLust</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="LDModifier_InstantFaint" Type="Normal">
+		<DisplayName>灵魂震颤</DisplayName>
+		<Desc>如果你的目标灵气低于50%，则有几率直接将目标击晕</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<LuaClassName>LDModifier_InstantFaint</LuaClassName>
+	</Modifier>
+  
+  <Modifier Name="LDModifier_JieCloudCrit" Type="Normal">
+		<DisplayName>逆天</DisplayName>
+		<Desc>攻击劫云时有几率直接百分比削除劫云的灵气</Desc>
+    <Sync>1</Sync>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<LuaClassName>LDModifier_JieCloudCrit</LuaClassName>
+	</Modifier>
+
+</List></ModifierDefs>
